@@ -17,7 +17,6 @@
 
 - MySQL 数据库
 - Redis 内存数据库
-- Elasticsearch 搜索引擎
 - MinIO 对象存储
 
 ### 工具类
@@ -26,6 +25,7 @@
 - Hutool 工具库
 - Apache Commons Lang3 工具类
 - Lombok 注解
+- jwt token生成
 
 ### 业务特性
 
@@ -36,9 +36,13 @@
 - 封装通用响应类
 - Swagger + Knife4j 接口文档
 - 自定义权限注解 + 全局校验
+- 拦截器获取 jwt检验登录
 - 全局跨域处理
 - 长整数丢失精度解决
 - 多环境配置
+- JSON 类型转枚举类型映射code值
+- mybatis中String映射枚举值
+- mybatis自动填充新建和更新日期
 
 ## 快速上手
 
