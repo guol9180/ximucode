@@ -7,10 +7,10 @@ import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * @author: 析木
- * @description: 项目自定义配置
- */
+//**
+// * @author: 析木
+// * @description: 项目自定义配置
+// */
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
